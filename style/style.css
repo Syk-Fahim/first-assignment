@@ -47,8 +47,6 @@ nav ul li a{
 }
 #banner-background-img{
     background-image: url('../assets/Hero-bg.png');
-    max-width: 1440px;
-    max-height: 652px;
 }
 #banner-pic{
     max-width: 240.28px;
@@ -72,5 +70,74 @@ nav ul li a{
     padding: 21px 24px;
     border-radius: 8px;
     border: 1px solid rgba(13, 19, 33, 1);
+    cursor: pointer;
+}
+/* footer */
+#footer-background-img{
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border-radius: 16px;
+    margin: 49px 150px 80px 150px;
+}
+.footer-form{
+    padding: 64px 48px;
+    gap: 24px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#form-title{
+    font-size: 32;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 36px;
+}
+#form-description{
+    font-size: 16;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.7;
+    line-height: 26px;
+}
+#feedback{
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16;
+    background-color: #FFFFFF;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    gap: 16px;
+    width: 548px;
+}
+#btn-form{
+    padding: 17px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #0D1321;
+    font-size: 20;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    height: 57px;
+    gap: 16px;
+}
+/* footer-link */
+.footer-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+h4{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer-link{
     cursor: pointer;
 }
